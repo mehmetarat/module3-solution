@@ -24,12 +24,33 @@ h3{
 .bg-red{
     background-color: #A52A2A;
 }
-.container {
-    margin-left: 2em;
-    width: 98%;
-   }
-/*************** Mobile ********/
-@media(max-width: 767px){
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .container {
+        margin-left: 2em;
+        width: 98%;
+        }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        margin-left: 2em;
+        width: 98%;
+        }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin-left: 2em;
+        width: 98%;
+        }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
     .container {
         margin-left: 17.5%;
         width: 75%;
@@ -40,5 +61,10 @@ h3{
 	.col-xs-12{			
         width: 100%;
 	}	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 576px) {
+  
 }
 </style>
