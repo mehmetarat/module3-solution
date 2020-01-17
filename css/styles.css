@@ -1,0 +1,41 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    margin-bottom: 2em;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+h1{
+	text-align: center;
+    font-weight: bold;
+}
+h3{
+	text-align: center;
+    font-weight: bold;
+}
+#p1,#p2,#p3{
+    margin-top: 5px;
+	text-align: center;
+}
+.bg-red{
+    background-color: #A52A2A;
+}
+.container {
+    margin-left: 2em;
+    width: 98%;
+   }
+/*************** Mobile ********/
+@media(max-width: 767px){
+    .container {
+        margin-left: 17.5%;
+        width: 75%;
+       }
+	.col-xs-12{			
+        width: 100%;
+	}	
+}
+</style>
